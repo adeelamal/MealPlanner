@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="mainpage.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital@1&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="hello">MealPlanner</h1>
+
+    <p class="desc">Search for a Meal</p>
+
+    <p class="instruction">Choose a food category from the choices and click search to know more about the category of food.</p>
+
+    <!--Box for user to search for food category-->
+    <div class="box">
+    <button onclick="myFunction()" class="food">Food Category</button>
+    <div id="myDropdown">
+        <select id="category">
+        <option value="seafood">Seafood</a>
+        <option value="vegetarian">Vegetarian</a>
+        <option value="vegan">Vegan</a>
+        <option value="pork">Pork</a>
+        <option value="breakfast">Breakfast</a>
+        </select>
+    <button onclick="buttonClicked()" class="search">Search</button>
+    <button class="search"><a href="#" onclick="self.close();">Exit</a></button><br><br><br>
+
+    <p>Click the link below to customize your own meal planner.</p><br><br>
+    
+    <!--Output from the search finding-->
+    <a class="planner" href="secondpage.html">Customize Here!</a>
+    </div></div><br>
+    <div class="output">
+        <div id="area">Area : </div><br>
+        <div id="Category">Category : </div><br>
+        <div id="meal">Meal : </div><br>
+        <div id="source">Source : </div><br>
+        <div id="video">Youtube : </div>
+    </div>
+    
+    <script src="mainpage.js"></script>
+  </body>
+</html>

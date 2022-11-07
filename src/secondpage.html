@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="secondpage.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+  </head>
+  
+  <body class="body">
+    <div class="mainWrapper">
+    
+      <h1>Customize Your Meal On Your Own!</h1>
+      <p class="explain">You can make your own meal to add into your meal planner collection.</p>
+
+      <form>
+        <!--User type the file of their meal-->
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control" placeholder="monday.txt">
+        </div>
+
+        <!--User type in their meal that they plan for themselves-->
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5" placeholder="Breakfast: Pasta"></textarea>
+
+        </div>
+      </form>
+
+        <button id="btnCreate" class="button">Create</button>
+        <button id="btnRead" class="button">Read</button>
+        <button id="btnDelete" class="button">Delete</button>
+        <button id="btnUpdate" class="button">Update</button>
+        <button class="btnhome" ><a class="buttonhome" href="mainpage.html">Home</a></button>
+        <button><a href="#" onclick="self.close();">Exit</a></button>
+
+    </div>
+
+    <script src="secondpage.js"></script>
+  </body>
+</html>

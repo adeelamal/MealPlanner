@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  background-color: burlywood;
+}
+
+.hello{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.desc{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.instruction{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.box{
+  text-align: center;
+  padding: 2%;
+  height: 70%;
+  width: 40%;
+  border: solid;
+  margin-left: 4%;
+  float: left;
+  margin-top: 1.8%;
+}
+
+.food{
+  text-align: center;
+  padding: 2%;
+}
+
+#category{
+  text-align: left;
+  padding: 1%;
+  margin-top: 5%;
+  margin-right: 5%;
+  border: solid;
+}
+
+.search{
+  padding: 0.85%;
+  margin-right: 5%;
+}
+
+.output{
+  text-align: left;
+  padding: 1%;
+  height: 70%;
+  width: 40%;
+  border: solid;
+  margin-left: 4%;
+  margin-bottom: 10%;
+  float: right;
+  margin-right: 4%;
+  vertical-align: top;
+}
